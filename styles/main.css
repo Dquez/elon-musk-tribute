@@ -1,0 +1,50 @@
+body {
+margin:5em;
+padding-top:1em;
+}
+
+.young-musk {
+height:500px;
+}
+
+#mySidenav a {
+  position: fixed;
+  right:-3em;
+  transition: 0.3s;
+  padding:.5em 3em;
+  width: 6em;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: black;
+  border-radius: 5px 0px 0px 5px;
+}
+
+#mySidenav a:hover {
+  right:0em;
+  width:7em;
+}
+
+#early-life-nav {
+  top:2em;
+  background-color: rgb(210, 210, 210);
+}
+
+#college-nav {
+  top: 5.8em;
+  background-color: rgb(190, 190, 190);
+}
+
+#early-career-nav {
+  top: 9.6em;
+  background-color: rgb(170, 170, 170);
+}
+
+#recent-nav {
+  top: 13.4em;
+  background-color: rgb(150, 150, 150);
+}
+
+#future-nav {
+  top: 17.2em;
+  background-color: rgb(130, 130, 130);
+}
