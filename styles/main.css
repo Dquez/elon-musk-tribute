@@ -9,10 +9,10 @@ height:500px;
 
 #mySidenav a {
   position: fixed;
-  right:-3em;
+  right:0;
   transition: 0.3s;
   padding:.5em 3em;
-  width: 6em;
+  width: 8em;
   text-decoration: none;
   font-size: 1.5em;
   color: black;
@@ -20,8 +20,8 @@ height:500px;
 }
 
 #mySidenav a:hover {
-  right:0em;
-  width:7em;
+  right:0;
+  width:10em;
 }
 
 #early-life-nav {
@@ -47,4 +47,10 @@ height:500px;
 #future-nav {
   top: 17.2em;
   background-color: rgb(130, 130, 130);
+}
+
+@media only screen and (max-width: 768px) {
+  #mySidenav {
+  display:none;
+  }
 }
